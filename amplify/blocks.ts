@@ -20,8 +20,11 @@ export async function initBlocks(backend: any) {
   blocksBackend.handler.addEnvironment('COGNITO_CLIENT_ID', userPoolClient.userPoolClientId);
   blocksBackend.handler.addEnvironment('COGNITO_REGION', blocksStack.region);
 
-  // CORS: Allow local dev frontend to call the sandbox API
-  blocksBackend.handler.addEnvironment('CORS_ALLOWED_ORIGINS', 'http://localhost:5173,http://localhost:3000');
+  // CORS: Allow local dev and Amplify Hosting domains
+  blocksBackend.handler.addEnvironment(
+    'CORS_ALLOWED_ORIGINS',
+    'http://localhost:5173,http://localhost:3000,https://.*\\.amplifyapp\\.com'
+  );
   blocksBackend.handler.addEnvironment('BLOCKS_SANDBOX', 'true');
 
   // Output Blocks API URL
