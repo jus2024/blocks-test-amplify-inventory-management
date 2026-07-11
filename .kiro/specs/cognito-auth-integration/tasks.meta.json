@@ -1,0 +1,195 @@
+{
+  "pbtResults": {
+    "1.2 Write property tests for CognitoVerifier bypass and rejection": {
+      "status": "passed",
+      "lastRunTimestamp": 1783634197729
+    },
+    "5.2 Write property test for Auth Middleware token attachment": {
+      "status": "passed",
+      "lastRunTimestamp": 1783635265999
+    }
+  },
+  "executionHistory": {
+    "1.1 Remove AuthBasic and authApi from backend": [
+      {
+        "executionId": "bff51a85-22d8-4e21-9822-c55bd182fdaf",
+        "chatSessionId": "sess_6d9f2ad9-83ad-451e-b1a0-3e98cde467fd",
+        "timestamp": 1783633692961
+      },
+      {
+        "executionId": "bff51a85-22d8-4e21-9822-c55bd182fdaf",
+        "chatSessionId": "sess_6d9f2ad9-83ad-451e-b1a0-3e98cde467fd",
+        "timestamp": 1783633709792
+      },
+      {
+        "executionId": "bff51a85-22d8-4e21-9822-c55bd182fdaf",
+        "chatSessionId": "sess_6d9f2ad9-83ad-451e-b1a0-3e98cde467fd",
+        "timestamp": 1783634095496
+      }
+    ],
+    "1.2 Write property tests for CognitoVerifier bypass and rejection": [
+      {
+        "executionId": "bff51a85-22d8-4e21-9822-c55bd182fdaf",
+        "chatSessionId": "sess_6d9f2ad9-83ad-451e-b1a0-3e98cde467fd",
+        "timestamp": 1783633693002
+      },
+      {
+        "executionId": "bff51a85-22d8-4e21-9822-c55bd182fdaf",
+        "chatSessionId": "sess_6d9f2ad9-83ad-451e-b1a0-3e98cde467fd",
+        "timestamp": 1783634107748
+      },
+      {
+        "executionId": "bff51a85-22d8-4e21-9822-c55bd182fdaf",
+        "chatSessionId": "sess_6d9f2ad9-83ad-451e-b1a0-3e98cde467fd",
+        "timestamp": 1783634708421
+      }
+    ],
+    "2.1 Update E2E tests to remove authApi dependency": [
+      {
+        "executionId": "bff51a85-22d8-4e21-9822-c55bd182fdaf",
+        "chatSessionId": "sess_6d9f2ad9-83ad-451e-b1a0-3e98cde467fd",
+        "timestamp": 1783633693026
+      },
+      {
+        "executionId": "bff51a85-22d8-4e21-9822-c55bd182fdaf",
+        "chatSessionId": "sess_6d9f2ad9-83ad-451e-b1a0-3e98cde467fd",
+        "timestamp": 1783634108995
+      },
+      {
+        "executionId": "bff51a85-22d8-4e21-9822-c55bd182fdaf",
+        "chatSessionId": "sess_6d9f2ad9-83ad-451e-b1a0-3e98cde467fd",
+        "timestamp": 1783634707540
+      }
+    ],
+    "3. Checkpoint - Backend と E2E テスト": [
+      {
+        "executionId": "bff51a85-22d8-4e21-9822-c55bd182fdaf",
+        "chatSessionId": "sess_6d9f2ad9-83ad-451e-b1a0-3e98cde467fd",
+        "timestamp": 1783633693051
+      },
+      {
+        "executionId": "bff51a85-22d8-4e21-9822-c55bd182fdaf",
+        "chatSessionId": "sess_6d9f2ad9-83ad-451e-b1a0-3e98cde467fd",
+        "timestamp": 1783634723622
+      },
+      {
+        "executionId": "bff51a85-22d8-4e21-9822-c55bd182fdaf",
+        "chatSessionId": "sess_6d9f2ad9-83ad-451e-b1a0-3e98cde467fd",
+        "timestamp": 1783634728786
+      }
+    ],
+    "4.1 Create src/auth-ui.ts with lit-html based Cognito auth forms": [
+      {
+        "executionId": "bff51a85-22d8-4e21-9822-c55bd182fdaf",
+        "chatSessionId": "sess_6d9f2ad9-83ad-451e-b1a0-3e98cde467fd",
+        "timestamp": 1783633693074
+      },
+      {
+        "executionId": "bff51a85-22d8-4e21-9822-c55bd182fdaf",
+        "chatSessionId": "sess_6d9f2ad9-83ad-451e-b1a0-3e98cde467fd",
+        "timestamp": 1783634747977
+      },
+      {
+        "executionId": "bff51a85-22d8-4e21-9822-c55bd182fdaf",
+        "chatSessionId": "sess_6d9f2ad9-83ad-451e-b1a0-3e98cde467fd",
+        "timestamp": 1783634931199
+      }
+    ],
+    "4.2 Write unit tests for auth-ui state transitions": [
+      {
+        "executionId": "bff51a85-22d8-4e21-9822-c55bd182fdaf",
+        "chatSessionId": "sess_6d9f2ad9-83ad-451e-b1a0-3e98cde467fd",
+        "timestamp": 1783633693095
+      },
+      {
+        "executionId": "bff51a85-22d8-4e21-9822-c55bd182fdaf",
+        "chatSessionId": "sess_6d9f2ad9-83ad-451e-b1a0-3e98cde467fd",
+        "timestamp": 1783634936483
+      },
+      {
+        "executionId": "bff51a85-22d8-4e21-9822-c55bd182fdaf",
+        "chatSessionId": "sess_6d9f2ad9-83ad-451e-b1a0-3e98cde467fd",
+        "timestamp": 1783635203015
+      }
+    ],
+    "5.1 Replace Blocks UI auth components with Cognito Auth UI": [
+      {
+        "executionId": "bff51a85-22d8-4e21-9822-c55bd182fdaf",
+        "chatSessionId": "sess_6d9f2ad9-83ad-451e-b1a0-3e98cde467fd",
+        "timestamp": 1783633693128
+      },
+      {
+        "executionId": "bff51a85-22d8-4e21-9822-c55bd182fdaf",
+        "chatSessionId": "sess_6d9f2ad9-83ad-451e-b1a0-3e98cde467fd",
+        "timestamp": 1783634937315
+      },
+      {
+        "executionId": "bff51a85-22d8-4e21-9822-c55bd182fdaf",
+        "chatSessionId": "sess_6d9f2ad9-83ad-451e-b1a0-3e98cde467fd",
+        "timestamp": 1783635203740
+      }
+    ],
+    "5.2 Write property test for Auth Middleware token attachment": [
+      {
+        "executionId": "bff51a85-22d8-4e21-9822-c55bd182fdaf",
+        "chatSessionId": "sess_6d9f2ad9-83ad-451e-b1a0-3e98cde467fd",
+        "timestamp": 1783633693160
+      },
+      {
+        "executionId": "bff51a85-22d8-4e21-9822-c55bd182fdaf",
+        "chatSessionId": "sess_6d9f2ad9-83ad-451e-b1a0-3e98cde467fd",
+        "timestamp": 1783635213548
+      },
+      {
+        "executionId": "bff51a85-22d8-4e21-9822-c55bd182fdaf",
+        "chatSessionId": "sess_6d9f2ad9-83ad-451e-b1a0-3e98cde467fd",
+        "timestamp": 1783635278141
+      }
+    ],
+    "6. Checkpoint - 全テスト確認": [
+      {
+        "executionId": "bff51a85-22d8-4e21-9822-c55bd182fdaf",
+        "chatSessionId": "sess_6d9f2ad9-83ad-451e-b1a0-3e98cde467fd",
+        "timestamp": 1783633693183
+      },
+      {
+        "executionId": "bff51a85-22d8-4e21-9822-c55bd182fdaf",
+        "chatSessionId": "sess_6d9f2ad9-83ad-451e-b1a0-3e98cde467fd",
+        "timestamp": 1783635288443
+      },
+      {
+        "executionId": "bff51a85-22d8-4e21-9822-c55bd182fdaf",
+        "chatSessionId": "sess_6d9f2ad9-83ad-451e-b1a0-3e98cde467fd",
+        "timestamp": 1783635341840
+      }
+    ],
+    "2. E2E テストの Cognito 対応": [
+      {
+        "executionId": "bff51a85-22d8-4e21-9822-c55bd182fdaf",
+        "chatSessionId": "sess_6d9f2ad9-83ad-451e-b1a0-3e98cde467fd",
+        "timestamp": 1783634707588
+      }
+    ],
+    "1. Backend: AuthBasic 削除と CognitoVerifier 統合": [
+      {
+        "executionId": "bff51a85-22d8-4e21-9822-c55bd182fdaf",
+        "chatSessionId": "sess_6d9f2ad9-83ad-451e-b1a0-3e98cde467fd",
+        "timestamp": 1783634708447
+      }
+    ],
+    "4. Frontend: Cognito Auth UI の作成": [
+      {
+        "executionId": "bff51a85-22d8-4e21-9822-c55bd182fdaf",
+        "chatSessionId": "sess_6d9f2ad9-83ad-451e-b1a0-3e98cde467fd",
+        "timestamp": 1783635203060
+      }
+    ],
+    "5. Frontend: src/index.ts の Auth UI 統合": [
+      {
+        "executionId": "bff51a85-22d8-4e21-9822-c55bd182fdaf",
+        "chatSessionId": "sess_6d9f2ad9-83ad-451e-b1a0-3e98cde467fd",
+        "timestamp": 1783635278165
+      }
+    ]
+  }
+}

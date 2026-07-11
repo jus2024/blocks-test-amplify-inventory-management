@@ -1,0 +1,544 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Create SQL migration files in `aws-blocks/dsql-migrations/`": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782620426676
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782620449211
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782621244437
+      }
+    ],
+    "1.2 Create CognitoVerifier helper at `aws-blocks/cognito-verifier.ts`": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782620426756
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782620450258
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782621245212
+      }
+    ],
+    "1.3 Replace `aws-blocks/index.ts` with inventory management backend skeleton": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782620426814
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782621249829
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782621374782
+      }
+    ],
+    "1.4 Rewrite `test/e2e.test.ts` with initial setup and material CRUD tests": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782620426843
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782621379296
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782621558841
+      }
+    ],
+    "2.1 Implement `createMaterial` and `listMaterials` API methods": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782620426867
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782621380055
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782621557958
+      }
+    ],
+    "2.2 Implement `updateMaterial` and `deleteMaterial` API methods": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782620426891
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782621564206
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782621729581
+      }
+    ],
+    "3.1 Implement `createWarehouse`, `listWarehouses`, `updateWarehouse`, `deleteWarehouse`": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782620426932
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782621565022
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782621730373
+      }
+    ],
+    "3.2 Add warehouse E2E tests to `test/e2e.test.ts`": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782620426965
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782621734889
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782621836798
+      }
+    ],
+    "4. Checkpoint — Core CRUD operations": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782620426997
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782621868023
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782621872480
+      }
+    ],
+    "5.1 Implement `recordTransaction` API method": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782620427026
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782621888963
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782621989247
+      }
+    ],
+    "5.2 Implement `listTransactions` API method": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782620427052
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782621994038
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782622078138
+      }
+    ],
+    "5.3 Add stock transaction E2E tests": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782620427081
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782621994762
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782622078771
+      }
+    ],
+    "6.1 Implement `getCurrentStock` and `getStockSummary` API methods": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782620427110
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782622084188
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782622262121
+      }
+    ],
+    "6.2 Add stock inquiry E2E tests": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782620427139
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782622084968
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782622262830
+      }
+    ],
+    "7. Checkpoint — Core business logic complete": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782620427169
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782622268464
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782622273971
+      }
+    ],
+    "8.1 Implement CronJob handler for low-stock detection": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782620427235
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782622279057
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782622576553
+      }
+    ],
+    "8.2 Implement `listAlerts` and `acknowledgeAlert` API methods": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782620427259
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782622279840
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782622577226
+      }
+    ],
+    "8.3 Add alert E2E tests": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782620427289
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782622582511
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782623235288
+      }
+    ],
+    "9.1 Implement `importCsv` API method and AsyncJob handler": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782620427314
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782623240971
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782623476423
+      }
+    ],
+    "9.2 Implement `getImportJobResult` API method": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782620427346
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782623481539
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782626427119
+      }
+    ],
+    "9.3 Add CSV import E2E tests": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782620427428
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782623482347
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782626427754
+      }
+    ],
+    "10. Checkpoint — All backend features complete": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782620427456
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782626433470
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782626438332
+      }
+    ],
+    "11.1 Implement navigation and material management section in `src/index.ts`": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782620427487
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782626447917
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782626549340
+      }
+    ],
+    "11.2 Implement warehouse management and stock transaction sections": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782620427530
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782626555044
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782626699811
+      }
+    ],
+    "11.3 Implement stock inquiry and alerts sections": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782620427553
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782626555785
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782626700559
+      }
+    ],
+    "12.1 Create `amplify/` directory structure with Cognito and Blocks integration": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782620427577
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782626706702
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782626797781
+      }
+    ],
+    "12.2 Add frontend authentication middleware in `src/index.ts`": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782620427603
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782626707664
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782626798489
+      }
+    ],
+    "13. Final checkpoint — Full system verification": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782620427628
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782626803931
+      },
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782626844337
+      }
+    ],
+    "1. Project scaffolding and database migrations": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782621558875
+      }
+    ],
+    "2. Materials CRUD implementation": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782621729611
+      }
+    ],
+    "3. Warehouses CRUD implementation": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782621836829
+      }
+    ],
+    "5. Stock transactions implementation": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782622078811
+      }
+    ],
+    "6. Stock inquiry implementation": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782622262872
+      }
+    ],
+    "8. Low-stock alert CronJob": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782623235329
+      }
+    ],
+    "9. CSV import AsyncJob": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782626427780
+      }
+    ],
+    "11. Frontend UI implementation": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782626700585
+      }
+    ],
+    "12. Amplify Gen2 integration": [
+      {
+        "executionId": "3377a1c0-ef7d-4b3e-be7d-b178e0828634",
+        "chatSessionId": "sess_07abdd17-ce43-4b50-add3-1fcee2cb75c8",
+        "timestamp": 1782626798523
+      }
+    ]
+  }
+}

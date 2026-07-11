@@ -1,0 +1,484 @@
+{
+  "pbtResults": {
+    "2.2 Property テスト: バリデーション関数の正確性": {
+      "status": "passed",
+      "lastRunTimestamp": 1783238661406
+    },
+    "5.2 Property テスト: Preference upsert の冪等性": {
+      "status": "passed",
+      "lastRunTimestamp": 1783239013411
+    },
+    "6.2 Property テスト: Note CRUD ラウンドトリップ": {
+      "status": "passed",
+      "lastRunTimestamp": 1783239047283
+    },
+    "5.3 Property テスト: Preference CRUD ラウンドトリップ": {
+      "status": "passed",
+      "lastRunTimestamp": 1783239047799
+    },
+    "6.3 Property テスト: Note 一覧のソート順保証": {
+      "status": "passed",
+      "lastRunTimestamp": 1783239071744
+    }
+  },
+  "executionHistory": {
+    "1.1 `amplify/data/resource.ts` を作成し UserPreference / UserNote モデルを定義する": [
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783237022074
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783237031482
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783237242558
+      }
+    ],
+    "1.2 `amplify/backend.ts` に data リソースを追加する": [
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783237022106
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783237246820
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783237281833
+      }
+    ],
+    "1.3 型チェックで Data Schema 定義の正当性を確認する": [
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783237022130
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783237286736
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783238552080
+      }
+    ],
+    "2.1 `src/lib/validation.ts` にバリデーション関数を作成する": [
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783237022155
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783237287413
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783238553017
+      }
+    ],
+    "2.2 Property テスト: バリデーション関数の正確性": [
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783237022198
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783238559687
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783238691960
+      }
+    ],
+    "3.1 型チェックとプロパティテストの実行確認": [
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783237022222
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783238701025
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783238791449
+      }
+    ],
+    "4.1 `src/index.ts` に Amplify configure と Data クライアントを追加する": [
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783237022247
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783238560487
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783238692628
+      }
+    ],
+    "5.1 `src/lib/preferences.ts` に Preference 操作モジュールを作成する": [
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783237022272
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783238796103
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783238912229
+      }
+    ],
+    "5.2 Property テスト: Preference upsert の冪等性": [
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783237022311
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783238917860
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783239085217
+      }
+    ],
+    "5.3 Property テスト: Preference CRUD ラウンドトリップ": [
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783237022338
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783238918545
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783239086034
+      }
+    ],
+    "6.1 `src/lib/notes.ts` に Note 操作モジュールを作成する": [
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783237022364
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783238796925
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783238912984
+      }
+    ],
+    "6.2 Property テスト: Note CRUD ラウンドトリップ": [
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783237022387
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783238919404
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783239086870
+      }
+    ],
+    "6.3 Property テスト: Note 一覧のソート順保証": [
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783237022413
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783238920260
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783239087776
+      }
+    ],
+    "7.1 型チェックと CRUD ロジック確認": [
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783237022437
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783239097704
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783239211321
+      }
+    ],
+    "8.1 `src/index.ts` にメモセクションの状態変数と UI テンプレートを追加する": [
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783237022462
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783239217325
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783239375201
+      }
+    ],
+    "8.2 メモ操作イベントハンドラを実装する": [
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783237022486
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783239540155
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783239678724
+      }
+    ],
+    "9.1 `src/index.ts` に設定セクションの状態変数と UI テンプレートを追加する": [
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783237022522
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783239376251
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783239534405
+      }
+    ],
+    "9.2 設定操作イベントハンドラを実装する": [
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783237022545
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783239541113
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783239679322
+      }
+    ],
+    "10.1 全体型チェックの実行確認": [
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783237022570
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783239685572
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783239726178
+      }
+    ],
+    "11.1 AppSync エラーハンドリングユーティリティを作成する": [
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783237022595
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783238921135
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783239088928
+      }
+    ],
+    "11.2 `nav()` 関数を更新し新セクションのデータロードを統合する": [
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783237022616
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783239541963
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783239680698
+      }
+    ],
+    "12.1 全コンポーネント統合確認": [
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783237022641
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783239731016
+      },
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783239869628
+      }
+    ],
+    "1. データスキーマ定義とバックエンド統合": [
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783238552126
+      }
+    ],
+    "2. バリデーションユーティリティの実装": [
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783238691996
+      }
+    ],
+    "4. フロントエンド Amplify クライアント設定": [
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783238692700
+      }
+    ],
+    "3. チェックポイント - バリデーションロジック確認": [
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783238791510
+      }
+    ],
+    "5. UserPreference CRUD ロジックの実装": [
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783239086068
+      }
+    ],
+    "6. UserNote CRUD ロジックの実装": [
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783239087809
+      }
+    ],
+    "7. チェックポイント - データ操作ロジック確認": [
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783239211369
+      }
+    ],
+    "8. メモ管理 UI の実装": [
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783239678772
+      }
+    ],
+    "9. 設定管理 UI の実装": [
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783239679348
+      }
+    ],
+    "11. エラーハンドリングと統合仕上げ": [
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783239680755
+      }
+    ],
+    "10. チェックポイント - UI 統合確認": [
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783239726223
+      }
+    ],
+    "12. 最終チェックポイント - 全体動作確認": [
+      {
+        "executionId": "e1c1fd23-64a2-46d2-8fb4-0f3158c48a07",
+        "chatSessionId": "sess_95657ea3-a39d-4303-9911-d7f732db9c6e",
+        "timestamp": 1783239869684
+      }
+    ]
+  }
+}

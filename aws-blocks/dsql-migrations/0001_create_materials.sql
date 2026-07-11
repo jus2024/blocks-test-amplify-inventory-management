@@ -1,0 +1,10 @@
+CREATE TABLE materials (
+  id TEXT PRIMARY KEY DEFAULT gen_random_uuid(),
+  name TEXT NOT NULL,
+  sku TEXT UNIQUE NOT NULL,
+  unit TEXT NOT NULL,
+  category TEXT NOT NULL,
+  low_stock_threshold INTEGER NOT NULL DEFAULT 0,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

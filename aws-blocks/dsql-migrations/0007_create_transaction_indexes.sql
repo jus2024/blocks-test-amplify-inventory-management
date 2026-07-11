@@ -1,0 +1,1 @@
+CREATE INDEX ASYNC idx_stock_transactions_material_warehouse ON stock_transactions(material_id, warehouse_id);
