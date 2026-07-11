@@ -11,6 +11,8 @@ frontend:
       commands:
         - npm install
         - npm run build
+        - mkdir -p dist/.blocks-sandbox
+        - node -e "const o=JSON.parse(require('fs').readFileSync('amplify_outputs.json','utf8')); require('fs').writeFileSync('dist/.blocks-sandbox/config.json', JSON.stringify({apiUrl:o.custom.blocks_api_url,environment:'production'}))"
   artifacts:
     baseDirectory: dist
     files:
