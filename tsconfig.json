@@ -16,7 +16,9 @@
   "include": [
     "src/**/*",
     "aws-blocks/**/*",
-    "test/**/*",
     "amplify/**/*"
+  ],
+  "exclude": [
+    "test/**/*"
   ]
 }

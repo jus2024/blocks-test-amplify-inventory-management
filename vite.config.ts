@@ -5,6 +5,7 @@ export default defineConfig({
     conditions: ['browser']
   },
   build: {
-    outDir: 'dist'
+    outDir: 'dist',
+    target: 'esnext'
   }
 });

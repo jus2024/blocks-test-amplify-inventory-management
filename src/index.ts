@@ -406,7 +406,7 @@ function renderApp() {
     async function loadAlerts() {
       try {
         const result = await api.listAlerts();
-        alerts = result.alerts.filter(a => !a.acknowledged);
+        alerts = result.alerts.filter((a: StockAlert) => !a.acknowledged);
         clearError();
         redraw();
       } catch (e: any) {
