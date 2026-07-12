@@ -354,6 +354,134 @@ push 後に自動的に CI/CD パイプラインが起動。または Amplify Co
 
 ---
 
+### 3.6 トラブルシューティング（実際に遭遇した問題）
+
+#### 問題1: `npm ci` が失敗する（package-lock.json の不整合）
+
+**症状:**
+```
+npm error Invalid: lock file's zod@3.24.2 does not satisfy zod@3.25.17
+npm error Missing: @opentelemetry/core@2.0.0 from lock file
+```
+
+**原因:** `@aws-amplify/data-construct` がバンドル依存に古い `zod@3.24.2` を含んでおり、npm 11 の厳格なチェックがこれを検出する。
+
+**解決:** `amplify.yml` のビルドコマンドを `npm ci` から `npm install` に変更する。
+
+---
+
+#### 問題2: `aws-blocks` パッケージが解決できない
+
+**症状:**
+```
+[commonjs--resolver] Failed to resolve entry for package "aws-blocks".
+The package may have incorrect main/module/exports specified in its package.json.
+```
+
+**原因:** `aws-blocks/client.js` は Blocks dev サーバーが自動生成するファイルで、デフォルトの `.gitignore` に含まれているため CI 環境に存在しない。
+
+**解決:** `.gitignore` から `aws-blocks/client.js` を削除し、リポジトリに含める。
+
+---
+
+#### 問題3: Blocks API URL not configured
+
+**症状:**
+```
+Blocks API URL not configured. Ensure:
+1. You ran `npm run deploy` (deploys config.json)
+2. SSR Lambda has BLOCKS_API_URL env var, OR
+3. config.json exists at /.blocks-sandbox/config.json
+```
+
+**原因:** Blocks クライアントはブラウザから `/.blocks-sandbox/config.json` を fetch するが、Amplify Hosting はドットで始まるパス（`.blocks-sandbox/`）を配信しない。Blocks の公式 `Hosting` コンストラクトは CloudFront + S3 で `/.blocks-sandbox/*` を配信するが、Amplify Hosting ではこの仕組みがない。
+
+**解決（2つの設定が必要）:**
+
+1. `amplify.yml` のフロントエンドビルドで `dist/blocks-sandbox/config.json` を生成:
+```yaml
+frontend:
+  phases:
+    build:
+      commands:
+        - npm install
+        - npm run build
+        - mkdir -p dist/blocks-sandbox
+        - node -e "const o=JSON.parse(require('fs').readFileSync('amplify_outputs.json','utf8')); require('fs').writeFileSync('dist/blocks-sandbox/config.json', JSON.stringify({apiUrl:o.custom.blocks_api_url,environment:'production'}))"
+```
+
+2. Amplify Console のリダイレクトルールで `/.blocks-sandbox/*` を `/blocks-sandbox/*` にリライト:
+
+| Source | Target | Type |
+|--------|--------|------|
+| `/.blocks-sandbox/<*>` | `/blocks-sandbox/<*>` | 200 (Rewrite) |
+| `/<*>` | `/index.html` | 404-200 |
+
+> リダイレクトルールは上から順に評価される。`.blocks-sandbox` のルールは SPA フォールバックルールより**上**に配置すること。
+
+---
+
+#### 問題4: CORS エラー
+
+**症状:**
+```
+Access to fetch at 'https://xxxxx.execute-api.us-west-2.amazonaws.com/prod/aws-blocks/api'
+from origin 'https://main.xxxxx.amplifyapp.com' has been blocked by CORS policy
+```
+
+**原因:** `amplify/blocks.ts` の `CORS_ALLOWED_ORIGINS` に localhost しか設定されておらず、Amplify Hosting のドメインが許可されていない。
+
+**解決:** `amplify/blocks.ts` で Amplify Hosting ドメインパターンを追加:
+```typescript
+blocksBackend.handler.addEnvironment(
+  'CORS_ALLOWED_ORIGINS',
+  'http://localhost:5173,http://localhost:3000,https://.*\\.amplifyapp\\.com'
+);
+```
+
+> `CORS_ALLOWED_ORIGINS` の各エントリは正規表現として評価される。カスタムドメインを使う場合はそのパターンも追加すること。
+
+---
+
+#### 問題5: TypeScript ビルドエラー（テストファイル）
+
+**症状:**
+```
+test/e2e.test.ts(94,27): error TS7006: Parameter 'm' implicitly has an 'any' type.
+```
+
+**原因:** `tsconfig.json` の `include` にテストファイル (`test/**/*`) が含まれており、`npm run build`（`tsc && vite build`）でテストも型チェックされる。
+
+**解決:** `tsconfig.json` でテストをビルド対象から除外:
+```json
+{
+  "exclude": ["test/**/*"]
+}
+```
+
+---
+
+#### 問題6: Top-level await ビルドエラー
+
+**症状:**
+```
+Top-level await is not available in the configured target environment
+("chrome87", "edge88", "es2020", "firefox78", "safari14")
+```
+
+**原因:** `src/index.ts` で Cognito ミドルウェア登録に top-level `await import(...)` を使用しているが、Vite のデフォルトビルドターゲットがこれをサポートしない。
+
+**解決:** `vite.config.ts` でビルドターゲットを `esnext` に設定:
+```typescript
+export default defineConfig({
+  build: {
+    target: 'esnext'
+  }
+});
+```
+
+---
+
 ## Phase 4: クリーンアップ
 
 ### ローカル
